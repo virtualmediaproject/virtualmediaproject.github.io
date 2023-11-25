@@ -1,0 +1,476 @@
+
+/* Comments here. */
+
+@media screen and (max-width: 900px){ 
+  html,body {
+  min-width: 600px
+ } 
+}
+
+header, main, section, article, footer, aside, figure, figcaption {
+  display: block;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ffffff;  
+  color: #ffffff;
+  height: auto%;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 48px;
+  color: #000000;
+  font-style: normal;
+  font-family: "Barlow Condensed Light";
+}
+
+.h1pages {
+  text-align: left;
+  font-size: 48px;
+  color: #000000;
+  font-style: normal;
+  font-family: "Barlow Condensed Light";
+}
+
+h2 {
+  text-align: left;
+  font-size: 36px;
+  color: #000000;
+  font-style: normal;
+  font-family: "Barlow Condensed Light";
+}
+
+h3 {
+ text-align: left;
+ font-family: "Barlow Condensed Light";
+ color: #000000;
+ font-size: 24px;
+}
+
+h4 {
+ text-align: left;
+ font-family: "Barlow Condensed Light";
+ color: #000000;
+ font-size: 20px;
+}
+
+.clearfix {
+ overflow: auto;
+}
+
+img {
+  margin: 0px auto;
+  padding: 10px;  
+  float: left;
+  width: 150px;
+  height: auto;
+  color: #000000;
+}
+
+.concept {
+  margin: auto;
+  display: block;
+  text-align: center; 
+  width: 800px; 
+}
+
+.imgconcept {  
+  width: 800px;
+  length: auto; 
+  padding: 10px;
+  margin-bottom: 3rem;
+  color: #000000; 
+}
+
+.imgicon {
+  margin: 0px auto;
+  padding: 10px;  
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  
+}
+
+.imgpercentage {
+  margin: auto;
+  display: block;
+  padding: 10px;
+  width: 920px;
+  length: auto;
+  color: #000000;
+}
+
+nav { 
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed";    
+}
+
+li a {
+  display: inline;
+  color: #000000;
+  text-align: center;
+  padding: 10px 15px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+.li2 {
+  float: left;
+  
+}
+
+a:link {
+  color: #000000;
+  margin-left: 0%;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  background-color: none;
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: underline;
+  color: none;
+}
+
+.dropbtn {
+  font-size: 16px;  
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  font-family: Montserrat;
+  padding: 20px;
+}
+
+.dropdown {  
+  display: inline;  
+  padding: 30px;  
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  min-width: 200px;
+  box-shadow: ;
+  z-index: 1;
+  padding: 20px;
+}
+
+.dropdown-content a {
+  text-align: left;
+  font-size: 1.5rem;  
+  font-weight: normal;
+  color: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline;
+  font-family: "Barlow Condensed";
+}
+
+.dropdown-content a:hover {
+  background-color: transparent;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  
+}
+
+.body:link {
+  color: #3366cc;
+  margin-left: 0%;
+  text-decoration: underline;
+}
+
+.body:visited {
+  color: gray;
+}
+
+.body:hover {
+  background-color: none;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.body:active {
+  text-decoration: underline;
+  color: none;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  text-indent: 0px;
+}
+
+.disc {
+  list-style-type: disc;
+  text-align: left;
+}
+
+.circle {
+  list-style-type: circle;
+  text-align: left;
+}
+
+.square {
+  list-style-type: square;
+  text-align: left;
+}
+  
+ul li {  
+  padding: .2em; 
+  text-align: left;
+  line-height: 1.4em;
+  text-indent: 0px;
+  line-height: 1.4em;
+}
+
+ol li {  
+  padding: .2em; 
+  text-align: left;
+  text-indent: 0px;
+  line-height: 1.4em;
+}
+
+.leftmarginalign {
+  list-style-type: none;
+  text-align: left;
+  padding: 0px; 
+  font-weight: bold;
+}
+
+.leftmarginalignnormal {
+  list-style-type: none;
+  text-align: left;
+  padding: 0px; 
+  font-weight: normal;
+}
+
+li::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {  
+  text-align: left;
+  font-family: Montserrat, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 16px;
+  font-size: min(1rem, 16px);  
+  background-color: #ffffff;
+  width: 960px;
+  margin: 0 auto; 
+  overflow: auto;
+  height: 100%;
+  
+}
+
+p {
+  line-height: 1.4em;
+}
+
+/* Main is the wrapper. Leave width & height this way to center on page.*/
+main {
+  background-color: #ffffff;  
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  
+}
+
+/* Section is for images. */
+section { 
+  text-align: left; 
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 3rem;
+  margin-top: 50px;
+  color: #000000;  
+}
+
+/* Article is for text. */
+article {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #000000;
+  margin: 10px 0px;
+  margin-bottom: 60px;    
+}
+
+hr { 
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  width: 900px;
+}
+
+.column1 {
+  background-color: transparent;
+  width: 290px;
+  float: left;
+  margin: 10px;
+  margin-left: 20px;  
+  padding: 10px;
+  color: #000000;
+}
+
+.column2 {
+  background-color: transparent;
+  width: 290px;
+  float: left;
+  margin: 10px;   
+  padding: 10px;
+  color: #000000;
+}
+
+.column3 {
+  background-color: transparent;
+  width: 290px;
+  float: left;
+  margin: 10px;
+  margin-right: 20px;  
+  padding: 10px;
+  color: #000000;
+}
+
+.blockquote {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px 70px;
+  text-align: justify;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section::after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+header::after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+
+form {
+ margin: 3rem 0;
+ display: flex;
+ flex-direction: column;
+ row-gap: 2rem;
+}
+
+.input__container {
+ display: flex;
+ flex-direction: column;
+ row-gap: 0.5rem;
+}
+
+.input__container label { font-size: 1.6rem; }
+
+.input__container input,
+textarea {
+ padding: 1rem 2rem;
+ border-radius: 5px;
+ border: 1px solid #555;
+ resize: none;
+}
+
+button {
+ align-self: flex-start;
+ padding: 1rem 2rem;
+ border-radius: 5px;
+ border: none;
+ background: #333;
+ color: #fff;
+ cursor: pointer;
+} 
+
+
+
+footer {
+ font-size: 16px; 
+ background-color: transparent;
+ color: #000000;
+ text-align: center;
+ padding: 10px;
+ margin: 10px 10px;
+}
+
+
+
+.footer:link {
+  color: #000000;
+  margin-left: 0%;
+  text-decoration: none;
+}
+
+.footer:visited {
+  color: gray;
+}
+
+.footer:hover {
+  background-color: none;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.previous {
