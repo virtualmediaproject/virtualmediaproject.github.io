@@ -5,12 +5,7 @@ header, main, section, article, footer, aside, figure, figcaption {
   display: block;
 }
 
-@media screen and (max-width: 900px){ 
-  html,body {
-  min-width: 600px
- } 
-}
-  
+ 
 * {
   box-sizing: border-box;
 }
