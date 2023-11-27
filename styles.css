@@ -258,8 +258,8 @@ body {
   font-size: 16px;
   font-size: min(1rem, 16px);  
   background-color: #ffffff;
-  width: 100%;
-  /*width: 960px;*/
+  
+  width: 960px;
   margin: 0 auto; 
   overflow: auto;
   height: 100%;
