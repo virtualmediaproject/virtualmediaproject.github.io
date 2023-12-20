@@ -4,24 +4,18 @@
 header, main, section, article, footer, aside, figure, figcaption {
   display: block;
 }
-
-@media screen and (max-width: 900px){ 
-  html,body {
-  min-width: 600px
- } 
-}
   
 * {
   box-sizing: border-box;
 }
 
 header {
-  background-color: #ffffff;  
-  color: #ffffff;
+  background-color: transparent;  
+  color: #000000;
   width: 100%;
   height: auto%;
-  margin: 10px 20px;
-  
+  margin: 10px 0px;
+  float: left;
 }
 
 .headertitle {
@@ -213,16 +207,15 @@ ul {
 ul li {  
   padding: .2em; 
   text-align: left;
-  line-height: 1.4em;
+  line-height: 1.6em;
   text-indent: 0px;
-  line-height: 1.4em;
 }
 
 ol li {  
   padding: .2em; 
   text-align: left;
   text-indent: 0px;
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 
 .leftmarginalign {
@@ -267,21 +260,21 @@ body {
 
 p {
   line-height: 1.6em;
+  text-align: left;
 }
 
 /* Main is the wrapper. Leave width & height this way to center on page.*/
 main {
-  background-color: #ffffff;  
+  background-color: transparent;  
   overflow: auto;
   width: 100%;
   height: auto;
-  
 }
 
 /* Section is for images. */
 section { 
   text-align: left; 
-  background-color: #ffffff;
+  background-color: transparent;
   padding: 10px 20px;
   margin-bottom: 3rem;
   margin-top: 50px;
@@ -290,12 +283,28 @@ section {
 
 /* Article is for text. */
 article {
-  background-color: #ffffff;
+  background-color: transparent;
   padding: 10px 20px;
   margin: 10px;
   color: #000000;
   margin: 10px 0px;
   margin-bottom: 60px;    
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  width: 50% 30%;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 hr { 
