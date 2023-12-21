@@ -371,12 +371,6 @@ hr {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column, .center {
-    width: 100%;
-  }
-} 
-
 .column1 {
   background-color: transparent;
   width: 290px;
