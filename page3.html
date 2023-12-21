@@ -153,6 +153,23 @@ Web developers (coders) are the target audience for this Guide. Experience level
  &nbsp;&nbsp;   &lt;title&gt;Home&lt;/title&gt;<br>
 
 &lt;style&gt;<br> 
+  @media (min-width:961px)  <br>
+  body {<br>
+    background-color: #ffffff;<br>
+  }<br>
+}<br>
+
+@media screen and (max-width: 600px) {<br>
+  .column, .center, table {<br>
+    width: 100%;<br>
+  }<br>
+} <br>
+
+@media only screen and (max-width: 600px) {<br>
+  body {<br>
+    background-color: #ffffff;<br>
+  }<br>
+}<br>
     
 article, aside, footer, header, main, nav, section {<br>
 display: block;<br>
