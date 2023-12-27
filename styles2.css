@@ -1,28 +1,28 @@
 
 /* Comments here. */
 
-header, main, section, article, footer, aside, figure, figcaption {
-  display: block;
-}
-
-@media (min-width:961px)  
+@media (min-width:961px)  {
   body {
     background-color: #ffffff;
   }
 }
-
 @media screen and (max-width: 600px) {
-  .column, .center, table, ol, ul, nav {
+  .column, .center, table {
     width: 100%;
   }
 } 
-
 @media only screen and (max-width: 600px) {
   body {
     background-color: #ffffff;
   }
+  ol, ul, nav, .scale {
+    font-size: 2rem;
+  }
 }
-  
+header, main, section, article, footer, aside, figure, figcaption {
+  display: block;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -82,13 +82,28 @@ h4 {
  overflow: auto;
 }
 
-img {
-  margin: 0px auto;
-  padding: 10px;  
+.imgleft {
+  margin: 0px 10px ;
+  padding: 0px 10px ;  
   float: left;
-  width: 150px;
+  width: 450px;
   height: auto;
-  color: #000000;
+}
+
+.imgscarystory {
+  margin: 0px 10px ;
+  padding: 0px 10px ;  
+  float: left;
+  width: 250px;
+  height: auto;
+}
+
+.imgright {
+  margin: 0px 10px;
+  padding: 0px 10px;  
+  float: right;
+  width: 450px;
+  height: auto;
 }
 
 .homepageimg {
@@ -267,7 +282,7 @@ body {
   font-family: 'Source Sans Pro';
   color: #000000;
   font-size: 16px;
-  font-size: min(1rem, 16px);  
+  font-size: min(1.3rem);  
   background-color: #ffffff;
   width: 960px;
   margin: 0 auto; 
@@ -281,28 +296,45 @@ p {
   text-align: left;
 }
 
+.highlightbackground {
+  background-color: #dddddd;
+}
+
+mark {
+  background-color: yellow;
+}
+
 /* Main is the wrapper. Leave width & height this way to center on page.*/
 main {
   background-color: transparent;  
   overflow: auto;
   width: 100%;
   height: auto;
+  padding: 10px;
 }
 
 /* Section is for images. */
 section { 
   text-align: left; 
   background-color: transparent;
-  padding: 10px 20px;
+  padding: 10px;
   margin-bottom: 3rem;
   margin-top: 50px;
   color: #000000;  
 }
 
+/* Div container uses "homepageimg" class. Style the container.*/
+.imgarticle { 
+  text-align: center;
+  background-color: transparent;
+  padding: 20px 0px;
+  margin: 10px 0px;
+}
+
 /* Article is for text. */
 article {
   background-color: transparent;
-  padding: 10px 20px;
+  padding: 10px 60px;
   margin: 10px;
   color: #000000;
   margin: 10px 0px;
@@ -342,18 +374,28 @@ hr {
   width: 50%;
   padding: 10px;
   height: auto; 
-  background-color: #ccccff;
+  background-color: transparent;
+  border-style: none;
+  border-width: 1px;
+  border-color: #000000;
+  
 }
 
 .center {
   display: flex;
   justify-content: center;
-  align-items: center;
- 
-  background-color: #ccccff;
-  height: 100%;
+  align-items: center; 
+  background-color: transparent;
+  height: 223px;
   width: auto;
-  height: 528px;
+  padding: 10px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+.background {
+  background-color: #dddddd;
 }
 
 .titlecolumn {
@@ -476,9 +518,12 @@ footer {
  color: #000000;
  text-align: center;
  padding: 10px;
- margin: 10px 10px;
+ margin: 10px;
 }
 
+.textaligncenter {
+ text-align: center;
+}
 
 
 .footer:link {
@@ -498,3 +543,5 @@ footer {
 }
 
 .previous {
+
+}
