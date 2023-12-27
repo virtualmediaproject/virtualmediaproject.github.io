@@ -6,7 +6,7 @@ header, main, section, article, footer, aside, figure, figcaption {
 }
 
 @media screen and (max-width: 600px) {
-  .column, .center {
+  .column, .center, .subheading {
     width: 100%;
   }
 } 
