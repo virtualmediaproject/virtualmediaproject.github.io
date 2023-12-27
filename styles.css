@@ -5,11 +5,6 @@ header, main, section, article, footer, aside, figure, figcaption {
   display: block;
 }
 
-@media (min-width:961px)  {
-  body {
-    background-color: #ffffff;
-  }
-}
 @media screen and (max-width: 600px) {
   .column, .center {
     width: 100%;
