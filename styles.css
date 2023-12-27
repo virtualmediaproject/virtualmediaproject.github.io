@@ -11,9 +11,7 @@ header, main, section, article, footer, aside, figure, figcaption {
   }
 }
 @media screen and (max-width: 600px) {
-  .column, .center, table {
-    width: 100%;
-  }
+  
 } 
 @media only screen and (max-width: 600px) {
   body {
@@ -21,6 +19,9 @@ header, main, section, article, footer, aside, figure, figcaption {
   }
   ol, ul, nav, .scale {
     font-size: 2rem;
+  }
+  .column, .center {
+    width: 100%;
   }
 }
 
