@@ -54,6 +54,14 @@ h1 {
   font-variant-caps: small-caps;
 }
 
+.homepageheading1 {
+  text-align: center;
+}
+
+.homepageheading2 {
+  text-align: center;
+}
+
 h2 {
   text-align: left;
   font-size: 48px;
