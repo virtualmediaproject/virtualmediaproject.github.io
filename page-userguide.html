@@ -2,7 +2,7 @@
 <!DOCTYPE html>
  <html lang="en">
   <head>
-   <title>Title</title>
+   <title>User Guide: HTML5 and CSS for Beginners</title>
     <link rel="stylesheet" href="styles2.css">    
     
     <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
@@ -61,8 +61,6 @@ Web developers (coders) are the target audience for this Guide. Experience level
 
    <p>Besides HTML5 integrating new technology capabilities, the other major difference between it and earlier versions of HTML are the &lt;div&gt; container labels. HTML5 uses &lt;head&gt;, &lt;body&gt;, &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, and &lt;footer&gt; container tag labels whereas previous HTML versions only used &lt;div&gt; container tag labels with classes to differentiate styles or properties for various containers on a website. Classes are still required in HTML5. However, older browsers cannot read HTML5 tags and require JavaScript to render properly. HTML5 renders all HTML &lt;div&gt; container tags regardless of label. Note that although HTML5 and HTML use different naming conventions for &lt;div&gt; containers, they are all still &lt;div&gt; containers. Terms are used interchangeably in this Guide.</p>
 
-  
-
    <p>This Guide includes instructions for creating an HTML5 webpage with both nested and stacked &lt;div&gt; containers. Instructions for creating and attaching an external CSS as well as using internal CSS are also included and demonstrated herein. This Guide uses the actual code for a scary story website published on Github.com for a website design class created by the Guide author. The stories have been omitted for length. The styles used for this website are appropriate for the content, but would not be appropriate for other types of content, e.g., a resume/cover letter website or proposal/report website. Therefore, it is recommended that coders learn basic graphic design principles.</p>
 
    <p>An appendix is included with a table containing HTML and CSS descriptions for some of the code used in this Guide. It is not a comprehensive list of all HTML and CSS code. An online search using the terms included in the HTML and CSS code in this Guide is useful for finding purpose and function of code not listed in the table. W3schools.com is a good source of information for learning HTML and CSS code.</p>
@@ -91,9 +89,7 @@ Web developers (coders) are the target audience for this Guide. Experience level
     <li>Close the index.html file. Right-click the file. Open with: Notepad.</li>
     </ol>
 
-   
-
-    <p>Below is an example of a nested containers structure. Notice how the header, main, section, and article containers are nested inside the body container and how the opening and closing tags are ordered inside each element (from the outside in). These are &lt;div&gt; containers nested in correct order. However, nesting containers this deep results in narrow paragraph and column displays on small viewports like cell phones and tablets. Therefore, it is recommended to only nest one or two containers deep if a layered effect is desired in the final graphic design. Otherwise, use stacked containers to ensure that all types of content displays properly regardless of viewport size.</p>
+  <p>Below is an example of a nested containers structure. Notice how the header, main, section, and article containers are nested inside the body container and how the opening and closing tags are ordered inside each element (from the outside in). These are &lt;div&gt; containers nested in correct order. However, nesting containers this deep results in narrow paragraph and column displays on small viewports like cell phones and tablets. Therefore, it is recommended to only nest one or two containers deep if a layered effect is desired in the final graphic design. Otherwise, use stacked containers to ensure that all types of content displays properly regardless of viewport size.</p>
 
 <div class="imgarticle">
  <img class="homepageimg" src="coding.jpg" alt="Coding.">
@@ -157,9 +153,7 @@ Web developers (coders) are the target audience for this Guide. Experience level
 
     <h4>Example of Nested and Stacked Containers with Content Tags</h4>
 
-   
-
-     <p>Below is the code for a scary story website using nested containers and content tags with an internal CSS. (Code for an external CSS is included for user reference, but no external CSS is attached.) The section and footer containers are stacked on top of and below the main container, respectively, while the article container is nested inside the main container. All containers including the nav, header, main, section, article and footer are nested inside the body container. Only the body container has a black background. All other containers have a transparent background so that users can see that the body container encompasses the entire viewport whereas all other containers are centered relative to the viewport. A thin border has been created around every container in this webpage so that users can see how every container is aligned relative to other containers and on the page as a whole. Every container can be styled differently to create a layered graphic design effect. </p>
+  <p>Below is the code for a scary story website using nested containers and content tags with an internal CSS. (Code for an external CSS is included for user reference, but no external CSS is attached.) The section and footer containers are stacked on top of and below the main container, respectively, while the article container is nested inside the main container. All containers including the nav, header, main, section, article and footer are nested inside the body container. Only the body container has a black background. All other containers have a transparent background so that users can see that the body container encompasses the entire viewport whereas all other containers are centered relative to the viewport. A thin border has been created around every container in this webpage so that users can see how every container is aligned relative to other containers and on the page as a whole. Every container can be styled differently to create a layered graphic design effect. </p>
 
    <p>The following code can be copied and pasted into Notepad and saved as an html page to render this webpage in a browser. Only the homepage has been created, not the linked pages in the navigation menu. Anything can be changed to suit users. It is recommended that while designing the layout to keep the container borders intact to ensure that elements remain aligned while designing. Remove the borders when publishing (delete the CSS border code). </p>
 
@@ -191,7 +185,7 @@ Web developers (coders) are the target audience for this Guide. Experience level
 
 @media (min-width:961px)  {<br>
   body {<br>
-    background-color: #ffffff;<br>
+    background-color: #000000;<br>
 &nbsp;&nbsp;  }<br>
 }<br>
 @media screen and (max-width: 600px) {<br>
@@ -199,14 +193,6 @@ Web developers (coders) are the target audience for this Guide. Experience level
     width: 100%;<br>
 &nbsp;&nbsp;  }<br>
 } <br>
-@media only screen and (max-width: 600px) {<br>
-  body {<br>
-    background-color: #ffffff;<br>
-  }<br>
-  ol, ul, nav, .scale {<br>
-    font-size: 2rem;<br>
-&nbsp;&nbsp;  }<br>
-}<br>
 article, aside, footer, header, main, nav, section {<br>
 display: block;<br>
 }<br>
@@ -365,13 +351,7 @@ border: .5px solid white;<br>
     
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;Heading Level 3&lt;/h3 &gt;<br>
  &nbsp;&nbsp;&nbsp;&nbsp;  &lt;p&gt;This is my scary story text. It is so scary that you want to stop reading right now. But you can't because of the hook in this paragraph. You are so enthralled with this scary story that you must see how it ends. You are rooting for the protagonist. You want to see if the antagonists get their comeuppances. This story does not end with a little pink jelly bean. It has a super spooky story ending.&lt;/p&gt;<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &lt;ol&gt;<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &lt;li&gt;Item One &lt;/li&gt;&lt;br&gt;<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &lt;li&gt;Item Two &lt;/li&gt;&lt;br&gt;<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &lt;li&gt;Item Three &lt;/li&gt;&lt;br&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;For some reason there's a list in this scary story.&lt;/li&gt;<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &lt;/ol&gt;<br>
-
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;  &lt;/article&gt;<br>
  
 &nbsp;&nbsp;&nbsp;   &lt;/main&gt;<br>
@@ -384,9 +364,7 @@ border: .5px solid white;<br>
 &nbsp;&nbsp;&lt;/body&gt;<br>
 &lt;/html&gt;<br>
 
-</p>
-
-  
+</p> 
 
   <h4>Create Pages</h4>
     <ol>
@@ -401,9 +379,7 @@ border: .5px solid white;<br>
   <img class="homepageimg" src="network.jpg" alt="Network.">
   </div>
 
-  <h4>Understanding IDs and Classes</h4>
-
-   
+  <h4>Understanding IDs and Classes</h4>   
 
    <p>Understanding the use of classes and IDs in HTML and CSS is important because CSS applies formatting to all elements with the same tags in HTML uniformly. This means that if coders need to apply different formatting for one &lt;div&gt; container, but not others, they would need to create a class for that &lt;div&gt; container specifically. Use classes for elements in an HTML webpage that appear repeatedly (e.g., lists, containers, font, background colors, etc.). Use IDs for elements in an HTML webpage that appear only once (e.g., the website header). For every class and ID designation, there will be two code entries: one in HTML and one in CSS.</p>
 </p>
@@ -426,9 +402,7 @@ border: .5px solid white;<br>
 
    <p> &lt;h1 id="titleheader"&gt;Scary Story&lt;/h1&gt; </p>
 
-  <h4>Classes</h4>
-
-   
+  <h4>Classes</h4>   
 
    <p>Classes are used frequently in HTML. Below is an example of a class code entry in HTML. The result will be an image that takes up the width of its container while mainting its aspect ratio. The image will have a margin of 2.5 pixels around it and zero padding. Display block means that no text will wrap around it. Images will usually use classes because some images will be thumbnails and some will take up the width of the page. Both types can be on the same page. (Note: The word after the "#" and "." representing ID and class, respectively, is invented (made-up) by the coder.)</p>
 
@@ -452,24 +426,17 @@ border: .5px solid white;<br>
    
   <h3>Create an External CSS</h3>
 
-   <h4>Structure of CSS</h4>
+   <h4>Structure of CSS</h4> 
 
- 
-
-   <p>CSS uses different opening and closing tags than HTML. These {&nbsp;} are curly brackets. Rulesets in CSS do not need to be in any specific order like HTML, but the syntax is important. Once created, the CSS is linked to the HTML doc. It contains the formatting for the website. The website code on this page uses an internal CSS in the &lt;head&gt; container. The CSS code can be copied and pasted into a separate CSS page and linked in the &lt;head&gt; section instead. Note: If styles have the same specificity (e.g., "h1" padding has two entries in the CSS), the latest or last entry takes precedence. Order of precedence for selectors is: tag, class, id, inline styles. This guide does not use inline styles. 
-
-  
+   <p>CSS uses different opening and closing tags than HTML. These {&nbsp;} are curly brackets. Rulesets in CSS do not need to be in any specific order like HTML, but the syntax is important. Once created, the CSS is linked to the HTML doc. It contains the formatting for the website. The website code on this page uses an internal CSS in the &lt;head&gt; container. The CSS code can be copied and pasted into a separate CSS page and linked in the &lt;head&gt; section instead. Note: If styles have the same specificity (e.g., "h1" padding has two entries in the CSS), the latest or last entry takes precedence. Order of precedence for selectors is: tag, class, id, inline styles. This guide does not use inline styles.   
 
     <h4>Create an External CSS</h4>    
-
     <ol>
      <li>Open Notepad. Save as: "styles.css." Save as Type: "All Files."</li>
      <li>As in HTML, do not capitalize or use spaces when naming CSS files.</li>
      <li>Be sure the CSS is linked in the &lt;head&gt; section of the HTML doc. Use this code: &lt;link rel="stylesheet" href="styles.css"&gt; </li>
      <li>Below are the CSS rulesets used in this webpage. </li>
-   </ol>    
-
-   
+   </ol>      
 
    <h4>Example of a CSS</h4>
 
@@ -500,9 +467,7 @@ border: .5px solid white;<br>
      <li>Deleting an end tag or a line of code accidentally. Use Ctrl+z to Undo and Ctrl+y to Redo. In Notepad, this only works for the last action performed. Be careful.</li>
     </ul>
 
-   <h3>Conclusion</h3>
-
-   
+   <h3>Conclusion</h3>   
 
     <p>It is best practice to use an external CSS instead of internal CSS. Internal CSS is only used for the website in this Guide for simplicity. An external CSS is linked in the Scary Story website but not used. It's just an example so that users know where to insert an external CSS in the HTML and the proper syntax for the CSS link. Formatting and content should be separated for two reasons. Firstly, internal styles can be embedded in the HTML page with &lt;styles&gt; &lt;/styles&gt; tags inserted in the <head> section or with inline styles. The problem with using internal styles is that coders will have to find and edit the same CSS code on every single page of the site manually, which is time consuming and tedious. Secondly, linking an external CSS means that coders only make one change in the CSS for the changes to automatically cascade throughout all pages of a website after saving. The second option is much more efficient.</p>   
 
@@ -612,7 +577,6 @@ border: .5px solid white;<br>
 
 </table>
 
-
 <h4>CSS (Cascading Style Sheets) Descriptions</h4>
 
     <table>
@@ -641,7 +605,7 @@ border: .5px solid white;<br>
 <tr>
     <td> @media (min-width:961px)  {<br>
   body {<br>
-    background-color: #ffffff;<br>
+    background-color: #000000;<br>
 &nbsp;&nbsp;  }<br>
 }<br>
 @media screen and (max-width: 600px) {<br>
